@@ -1,0 +1,11 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller showing a sample home page
+
+POST /register          controllers.MoviesController.makeReservation
+
+GET /room/:no/:date     controllers.MoviesController.availableSeats(no: Int, date: String)
+
+GET /movies             controllers.MoviesController.getMovies
