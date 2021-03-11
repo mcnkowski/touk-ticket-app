@@ -6,6 +6,8 @@ The app has been created using Play 2.0 framework, which encourages using SBT fo
 Calling `sbt run` in the application directory launches it in developer mode.
 To launch the app in production mode call `sbt dist`, extract the resulting `ticket_booking-0.1.zip`, and run `ticket_booking` script in the `bin` directory.
 
+https://www.scala-sbt.org/
+
 `test.sh` script contains example curl calls.
 
 Available actions:
