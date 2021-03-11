@@ -2,8 +2,11 @@ A ticket booking app for a movie cinema using Play framework and Slick.
 
 The app is set to listen for HTTP requests on port 9080 and HTTPS requests on port 9090.
 
-To launch the app in production mode extract `ticket_booking-0.1.zip`, and run `ticket_booking` script in the `bin` directory. `test.sh` script contains example curl calls. 
+The app has been created using Play 2.0 framework, which encourages using SBT for building projects.
+Calling `sbt run` in the application directory launches it in developer mode.
+To launch the app in production mode call `sbt dist`, extract the resulting `ticket_booking-0.1.zip`, and run `ticket_booking` script in the `bin` directory.
 
+`test.sh` script contains example curl calls.
 
 Available actions:
 ```
